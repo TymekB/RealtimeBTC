@@ -1,12 +1,16 @@
-$(document).ready(function() {
+function showBtcRate(element) {
     setInterval(function(){
         $.ajax({
             dataType: "json",
             url: 'https://api.coindesk.com/v1/bpi/currentprice.json',
             success: function(result) {
-                $('#rate').html(result.bpi.USD.rate);
+                $(element).html(result.bpi.USD.rate);
             }
         });
     }, 1000);
+}
+
+$(document).ready(function() {
+    setInterval(showBtcRate('#rate'), 1000);
 });
 
