@@ -14,9 +14,16 @@ export class BitcoinPriceComponent implements OnInit {
 
     ngOnInit() {
 
-        this.http.get("https://api.coindesk.com/v1/bpi/currentprice.json").subscribe((res: any) => {
-            this.price = res.bpi.USD.rate_float;
-        });
+        let setBtcPrice = () => {
+            this.http.get("https://api.coindesk.com/v1/bpi/currentprice.json").subscribe((res: any) => {
+                this.price = res.bpi.USD.rate_float;
+            });
+        };
 
+        setBtcPrice();
+
+        setInterval(() => {
+            setBtcPrice();
+        }, 1000);
     }
 }
