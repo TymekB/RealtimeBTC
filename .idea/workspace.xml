@@ -15,6 +15,9 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RealtimeBTC" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,22 +33,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+  <component name="ProjectId" id="1XIkI8nA3cUkgPUxTTH3PRSSsLw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/services" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -60,13 +66,31 @@
       <option name="presentableId" value="Default" />
       <updated>1529921778597</updated>
       <workItem from="1529921780354" duration="3061000" />
+      <workItem from="1580740918359" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="177" key="#TypeScript" timestamp="1580741494487">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="560" y="177" key="#TypeScript/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1580741494487" />
     <state x="560" y="177" key="#Vim_Emulation" timestamp="1580681625588">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -75,10 +99,28 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="685" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.977@0.23.1920.977" timestamp="1580681620070" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1580682687072">
+    <state x="100" y="123" width="1720" height="777" key="DiffContextDialog" timestamp="1580741114799">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="100" y="123" width="1720" height="777" key="DiffContextDialog/0.23.1920.977@0.23.1920.977" timestamp="1580683378423" />
+    <state x="100" y="123" width="1720" height="777" key="DiffContextDialog/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1580741114798" />
+    <state x="469" y="150" key="SettingsEditor" timestamp="1580741486159">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="469" y="150" key="SettingsEditor/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1580741486159" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1580741821470">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1920.977@0.23.1920.977" timestamp="1580682687072" />
+    <state width="500" height="445" key="SwitcherDM/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1580741821470" />
+    <state x="639" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580740920555">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="639" y="344" key="com.intellij.ide.util.TipDialog/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1580740920555" />
+    <state x="1920" y="23" width="1906" height="1057" maximized="true" key="dock-window-1" timestamp="1580741114799">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1920" y="23" width="1906" height="1057" maximized="true" key="dock-window-1/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1580741114799" />
     <state x="715" y="231" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580682069871">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -91,9 +133,10 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="625" y="236" key="run.anything.popup/0.23.1920.977@0.23.1920.977" timestamp="1580682235959" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1580681933019">
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1580741610035">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1580681933019" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1580741610035" />
   </component>
 </project>

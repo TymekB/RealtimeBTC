@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {BitcoinService} from "../services/bitcoin.service";
 
 @Component({
     selector: 'bitcoin-price',
@@ -10,12 +11,13 @@ export class BitcoinPriceComponent implements OnInit {
 
     private price: number;
 
-    constructor(private http:HttpClient) { }
+    constructor(private bitcoinService: BitcoinService) {
+    }
 
     ngOnInit() {
 
         let setBtcPrice = () => {
-            this.http.get("https://api.coindesk.com/v1/bpi/currentprice.json").subscribe((res: any) => {
+            this.bitcoinService.getCurrentPrice().subscribe((res: any) => {
                 this.price = res.bpi.USD.rate_float;
             });
         };
