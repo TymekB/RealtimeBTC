@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BitcoinPriceComponent } from './bitcoin-price/bitcoin-price.component';
 import {HttpClientModule} from "@angular/common/http";
+import { Ng2OdometerModule } from 'ng2-odometer';
+
 
 @NgModule({
     declarations: [
@@ -12,7 +14,8 @@ import {HttpClientModule} from "@angular/common/http";
     ],
     imports: [
         BrowserModule,
-        HttpClientModule
+        HttpClientModule,
+        Ng2OdometerModule.forRoot()
     ],
     providers: [],
     bootstrap: [AppComponent]
